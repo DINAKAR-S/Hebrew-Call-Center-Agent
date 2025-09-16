@@ -25,7 +25,7 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-2) (Optional) Download Phonikud ONNX model for Hebrew nikud:
+2) Download Phonikud ONNX model for Hebrew nikud:
 ```bash
 # Windows PowerShell
 curl -L -o phonikud-1.0.int8.onnx https://huggingface.co/thewh1teagle/phonikud-onnx/resolve/main/phonikud-1.0.int8.onnx
