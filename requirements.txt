@@ -10,10 +10,10 @@ torchaudio
 # STT
 openai-whisper
 
-# TTS (current setup uses gTTS)
-gTTS
-pydub
+# TTS - Chatterbox instead of gTTS
+chatterbox-tts
 soundfile
 
-# Optional: Hebrew nikud processing (if PHONIKUD_MODEL_PATH provided)
-phonikud-tts
+# Hebrew nikud processing
+phonikud
+phonikud-onnx
