@@ -1,0 +1,32 @@
+simulate_hebrew_call:
+  description: >
+    Simulate a complete Hebrew customer service call where a customer wants to cancel their TV subscription. The conversation must follow this exact flow:
+    
+    1. Customer initiates call with cancellation request in Hebrew
+    2. Support agent responds professionally in Hebrew
+    3. For EACH message:
+       - Nikud agent adds vowel marks to the Hebrew text
+       - TTS agent converts the text with nikud to audio file
+       - STT agent transcribes the audio back to text
+       - Transcript agent logs the complete interaction
+    4. Continue conversation for maximum 6 exchanges (3 customer + 3 support messages)
+    5. Support agent must either retain customer or process cancellation
+    6. Generate final call summary
+    
+    Important guardrails:
+    - Maximum 6 conversation turns total
+    - Each Hebrew text must be processed through nikud->TTS->STT->transcript pipeline
+    - Save all audio files in output/ directory
+    - Log all steps in transcript.txt
+    - Monitor token usage and prevent infinite loops
+    - Handle all errors gracefully
+    
+  expected_output: >
+    Complete call simulation with:
+    1. transcript.txt containing full Hebrew conversation with nikud
+    2. Audio files (audio_step_1.wav, audio_step_2.wav, etc.) for each conversation step
+    3. Call summary with outcome (retention successful/cancellation processed)
+    4. Token usage report and execution time
+    5. Error log if any issues occurred
+    
+  agent: coordinator_agent

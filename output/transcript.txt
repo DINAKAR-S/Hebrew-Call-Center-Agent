@@ -1,0 +1,76 @@
+HEBREW CALL CENTER TRANSCRIPT
+Session Started: 2025-09-16 10:01:00
+============================================================
+
+
+=== CONVERSATION STEP 1 ===
+Timestamp: 2025-09-16 10:01:17
+Speaker: customer
+Original Text: שלום, אני רוצה לבטל את המנוי לטלוויזיה שלי
+Nikud Text: שָׁלוֹם, אֲנִי רוֹצֶה לְֽבַטֵּל אֶת הַ|מָּנוּי לַ|טֵּ֫לֵוִ֫ויזְיָה שֶׁ|לִּי
+Audio File: output\audio_step_1.wav
+Transcribed Text: שלום, אני רוצה לבטל את המנוילה, תת למה דווה ווו יוד זיין יוד הישה, לי.
+==================================================
+
+=== CONVERSATION STEP 2 ===
+Timestamp: 2025-09-16 10:01:30
+Speaker: support
+Original Text: שלום, אני מבין שאתה רוצה לבטל את המנוי. האם אתה יכול להסביר לי מה הבעיה?
+Nikud Text: שָׁלוֹם, אֲנִי מֵבִין שֶׁ|אַתָּה רוֹצֶה לְֽבַטֵּל אֶת הַ|מָּנוּי. הַאִם אַתָּה יָכוֹל לְֽהַסְבִּיר לִי מָה הַ|בְּֽעָיָה?
+Audio File: output\audio_step_2.wav
+Transcribed Text: שלום, אני מבין שאתה רוצה לובטל את ה-מנוי. האם אתה יכול להסביר לי מהה בויהיה?
+==================================================
+
+=== CONVERSATION STEP 3 ===
+Timestamp: 2025-09-16 10:01:39
+Speaker: customer
+Original Text: החשבונות יקרים מדי והשירות לא טוב
+Nikud Text: הַ|חֶשְׁבּוֹנוֹת יְֽקָרִים מִדַּי וְֽהַ|שֵּׁירוּת לֹא טוֹב
+Audio File: output\audio_step_3.wav
+Transcribed Text: החשבונות יוכרים מדי אוהה, שירות לא טוב.
+==================================================
+
+=== CONVERSATION STEP 4 ===
+Timestamp: 2025-09-16 10:01:52
+Speaker: support
+Original Text: אני מבין את הבעיה. בואו נראה איך אפשר לעזור לך. יש לנו הצעות מיוחדות
+Nikud Text: אֲנִי מֵבִין אֶת הַ|בְּֽעָיָה. בּ֫וֹאוּ נִרְאֶה אֵיךְ אֶפְשָׁר לַעֲזֹור לְֽךָ. יֵשׁ לָנוּ הַצָּעוֹת מְֽיֻוחָדוֹת
+Audio File: output\audio_step_4.wav
+Transcribed Text: אני מבין את ה-בועיה ב-תוו' וו' נראה איך אפשר לעזור לוכה יש לנו הצעות מיוחדות
+==================================================
+
+=== CONVERSATION STEP 5 ===
+Timestamp: 2025-09-16 10:02:02
+Speaker: customer
+Original Text: לא מעוניין, אני רוצה לבטל עכשיו
+Nikud Text: לֹא מְֽעֻונְיָין, אֲנִי רוֹצֶה לְֽבַטֵּל עַכְשָׁיו
+Audio File: output\audio_step_5.wav
+Transcribed Text: לא מעוניין, אני רוצה לבטל עכשיו.
+==================================================
+
+=== CONVERSATION STEP 6 ===
+Timestamp: 2025-09-16 10:02:13
+Speaker: support
+Original Text: בסדר, אני אעבד את הביטול. תקבל אישור במייל תוך 24 שעות
+Nikud Text: בְּֽסֵ֫דֶר, אֲנִי אֲעַבֵּד אֶת הַ|בִּיטּוּל. תְּֽקַבֵּל אִישּׁוּר בְּֽ|מֵיְיל תּוֹךְ 24 שָׁעוֹת
+Audio File: output\audio_step_6.wav
+Transcribed Text: בצה מחדלת ראש, אני אהבד את ה' ביטול' תוקבל אישור בו, מיל תוך 24 שעות
+==================================================
+
+============================================================
+CALL SUMMARY
+============================================================
+Call Date: 2025-09-16 10:02:13
+Total Conversation Steps: 6
+Call Outcome: Cancellation processed
+Customer Satisfaction: Resolved
+Issues Resolved: Yes
+
+Additional Notes: Processed 6/6 steps successfully
+
+Generated Files:
+- Transcript: output\transcript.txt
+- Audio Files: output/audio_step_*.wav
+- Call Log: logs\call_log.txt
+
+============================================================

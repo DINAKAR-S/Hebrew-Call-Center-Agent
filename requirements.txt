@@ -1,0 +1,19 @@
+crewai>=0.175.0
+python-dotenv
+PyYAML
+
+# Core numerics (needed by Whisper, audio libs)
+numpy
+torch
+torchaudio
+
+# STT
+openai-whisper
+
+# TTS (current setup uses gTTS)
+gTTS
+pydub
+soundfile
+
+# Optional: Hebrew nikud processing (if PHONIKUD_MODEL_PATH provided)
+phonikud-tts
