@@ -5,7 +5,7 @@ This project implements a multi-agent CrewAI system that simulates a Hebrew cust
 ## Features
 
 - Hebrew text processing with Nikud (vowel marks) using Phonikud (optional)
-- Text-to-Speech with gTTS (Google Text-to-Speech) by default
+- Text-to-Speech with Chatterbox-tts
 - Speech-to-Text with OpenAI Whisper
 - Multi-agent conversation flow with guardrails
 - Complete call transcript logging
@@ -100,11 +100,8 @@ The system generates:
 
 ## Requirements
 
-- Python 3.10-3.13
+- Python 3.10-3.11
 - OpenAI API key (for Whisper and LLM usage)
 - Sufficient disk space for audio files
 - Internet connection for model downloads
-
-## Notes
-- If gTTS is blocked on your network, the code generates a short silent WAV so the pipeline still completes.
-- To switch to higher-quality TTS later (e.g., Chatterbox), add and install the library, then set the preferred TTS in `tts_tool.py`.
+- 
